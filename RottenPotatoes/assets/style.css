@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic|Francois+One);
 
 body {font:normal 16px/22px 'Carrois Gothic',Arial,Helvetica;	background:#111;color: #ccc;}
 h2 {font-weight: normal; padding: 10px; margin: -7px; color: #fff;}
@@ -121,4 +121,10 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 	.homeinfo{padding-top: 100px;}
 	.events ul li,.events ul li .date{background: none;}
 	.events ul li .date b{display: inline;font-size: 22px;border-right: 1px solid #333;padding-right: 10px;margin-right: 10px;}
+}
+
+.review-wrapper {
+    display: flex;
+    flex-direction: column;
+
 }
